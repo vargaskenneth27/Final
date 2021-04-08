@@ -1,0 +1,21 @@
+<!--Made a page for user to change password when they forget theirs not functional because lack of php avaliable for it but does have the email action. Did not add to navbar because its an example page didnt need to be on navbar-->
+<a href="Home" class="navbar-left"><img class="logo" src="images/wavey_kicks_logo.png" alt="Wavey Kicks Logo"></a>
+
+<h1>Change Password</h1>
+
+<form method="post" action="mailto:waveykicks@gmail.com" >
+
+<label for="newPassword">New Password:</label>
+<input type="password" id="newPassword" name="newPassword" title="New password" />
+
+<label for="confirmPassword">Confirm Password:</label>
+<input type="password" id="confirmPassword" name="confirmPassword" title="Confirm new password" />
+
+<label for="token">Pasword Token:</label>
+<input type="text" id="token" name="token" title="Password Token" />
+
+<p class="form-actions">
+<input type="submit" value="Change Password" title="Change password" />
+</p>
+
+</form>
